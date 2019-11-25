@@ -1,0 +1,105 @@
+<h2 class="my-3">01 - Les components</h2>
+
+<section>
+    <div class="accordion" id="accordionComponents">
+
+        <!-- app-tag-component -->
+        <div class="card" data-toggle="collapse" data-target="#firstCollapse">
+            <div class="card-header">
+                <h3 class="h4">A : un composant accessible grâce à un tag (par defaut)</h3>
+            </div>
+        </div>
+        <div id="firstCollapse" class="collapse">
+            <div class="card-body">
+                <article>
+                    <app-tag-component></app-tag-component>
+                </article>
+            </div>
+        </div>
+
+        <!-- .app-class-component -->
+        <div class="card" data-toggle="collapse" data-target="#secondCollapse">
+            <div class="card-header">
+                <h3 class="h4">B : un composant accessible grâce à une classe</h3>
+            </div>
+        </div>
+        <div id="secondCollapse" class="collapse">
+            <div class="card-body">
+                <article>
+                    <div class="app-class-component"></div>
+                </article>
+            </div>
+        </div>
+
+        <!-- [app-attribut-component] -->
+        <div class="card" data-toggle="collapse" data-target="#thirdCollapse">
+            <div class="card-header">
+                <h3 class="h4">C : un composant accessible grâce à un attribut</h3>
+            </div>
+        </div>
+        <div id="thirdCollapse" class="collapse">
+            <div class="card-body">
+                <article>
+                    <div app-attribut-component></div>
+                </article>
+            </div>
+        </div>
+
+        <!-- ./app-html-externe-component.component.html -->
+        <div class="card" data-toggle="collapse" data-target="#fourthCollapse">
+            <div class="card-header">
+                <h3 class="h4">D : un composant avec template html externe - (par défaut)e</h3>
+            </div>
+        </div>
+        <div id="fourthCollapse" class="collapse">
+            <div class="card-bordy">
+                <article>
+                    <app-html-externe-component></app-html-externe-component>
+                </article>
+            </div>
+        </div>
+
+        <!-- ./app-html-interne-component.component.html -->
+        <div class="card" data-toggle="collapse" data-target="#fifthCollapse">
+            <div class="card-header">
+                <h3 class="h4">E : un composant avec template html interne</h3>
+            </div>
+        </div>
+        <div id="fifthCollapse" class="collapse">
+            <div class="card-body">
+                <article>
+                    <app-html-interne-component></app-html-interne-component>
+                </article>
+            </div>
+        </div>
+
+        <!-- ./app-css-externe-component.component.css -->
+        <div class="card" data-toggle="collapse" data-target="#sixthCollapse">
+            <div class="card-header">
+                <h3 class="h4">F : un composant avec un style css externe</h3>
+            </div>
+        </div>
+        <div id="sixthCollapse" class="collapse">
+            <div class="card-body">
+                <article>
+                    <app-css-externe-component></app-css-externe-component>
+                </article>
+            </div>
+        </div>
+
+        <!-- ./app-css-interne-component.component.css -->
+        <div class="card" data-toggle="collapse" data-target="#seventhCollapse">
+            <div class="card-header">
+                <h3 class="h4">H : un composant avec un style css interne</h3>
+            </div>
+        </div>
+        <div id="seventhCollapse" class="collapse">
+            <div class="card-body">
+                <article>
+                    <app-css-interne-component></app-css-interne-component>
+                </article>
+            </div>
+        </div>
+
+    </div><!-- ./accordion -->
+</section>

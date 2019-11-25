@@ -1,0 +1,28 @@
+<!-- TS -->
+<p>
+    Je suis inscrit comme ça dans le fichier <strong>html-externe-component.component.ts</strong> :
+</p>
+<pre>
+    @Component(&#123;
+        selector: '.app-html-externe-component',
+        <code>templateUrl: './html-externe-component.component.html',</code>     
+        styleUrls: [
+            `
+                .resultat-div-brown &#123;
+                    color: "brown";
+                    font-size: 24px;
+                &#125;
+            `
+        ]
+    &#125;)
+</pre>
+
+<!-- HTML -->
+<p>
+    Dans le fichier <strong>html-externe-component.component.html</strong> je suis inscrit comme ça :
+</p>
+<pre>
+    <code>&lt;div class="resultat-div-brown"&gt;Je suis un texte de couleur marron&lt;/div&gt;</code>
+</pre>
+<p class="lead m-0">Le résultat visuel correspond à ça : </p>
+<div class="resultat-div-brown">Je suis un texte de couleur marron</div>

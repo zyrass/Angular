@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+pre {
+    background-color: #232323;
+    padding: 10px 0;
+    color: springgreen;
+}
+
+pre > code {
+    font-weight: 700;
+    color: salmon;
+}
+
+.card:hover {
+    cursor: pointer;
+}

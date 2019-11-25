@@ -3,10 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UnComponentsComponent } from './un-components/un-components.component';
+import { TagComponentComponent } from './un-components/tag-component/tag-component.component';
+import { ClassComponentComponent } from './un-components/class-component/class-component.component';
+import { AttributComponentComponent } from './un-components/attribut-component/attribut-component.component';
+import { CssExterneComponentComponent } from './un-components/css-externe-component/css-externe-component.component';
+import { CssInterneComponentComponent } from './un-components/css-interne-component/css-interne-component.component';
+import { HtmlInterneComponentComponent } from './un-components/html-interne-component/html-interne-component.component';
+import { HtmlExterneComponentComponent } from './un-components/html-externe-component/html-externe-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UnComponentsComponent,
+    TagComponentComponent,
+    ClassComponentComponent,
+    AttributComponentComponent,
+    CssExterneComponentComponent,
+    CssInterneComponentComponent,
+    HtmlInterneComponentComponent,
+    HtmlExterneComponentComponent
   ],
   imports: [
     BrowserModule,
