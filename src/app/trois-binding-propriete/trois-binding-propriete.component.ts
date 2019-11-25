@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TroisBindingProprieteComponent implements OnInit {
 
+  public disabled = false;
+  public test = window;
+
   constructor() { }
 
   ngOnInit() {
+    console.log(this.test.location);
+    console.log("href : " + this.test.location.href);
+    console.log("host : " + this.test.location.host);
+    console.log("pathname : " + this.test.location.pathname);
+    console.log("port" + this.test.location.port);
   }
-
 }

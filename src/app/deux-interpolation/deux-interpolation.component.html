@@ -1,1 +1,19 @@
-<p>deux-interpolation works!</p>
+<!-- 02 - L'interpolation -->
+<section>
+    <h2 class="my-3">02 - L'interpolation</h2>
+    <p class="lead">Code HTML</p>
+    <pre>
+        &lt;div class="alert alert-info"&gt; 
+            <code>&#123;&#123; myInterpolation &#125; &#125;</code>
+        &lt;/div&gt;</pre>
+
+    <p class="lead">Code dans le fichier TS</p>
+    <pre>
+        public <code>nom</code> = "Éléanore";
+        public <code>myInterpolation</code> = `Bonjour, je m'appel <code>$&#123;this.nom&#125;</code> et je suis un ange qui te protège de là-haut !`;</pre>
+
+    <p class="lead">Rendu affiché à l'écran :</p>
+    <div class="alert alert-info">
+        <strong>{{ myInterpolation }}</strong>
+    </div>
+</section>

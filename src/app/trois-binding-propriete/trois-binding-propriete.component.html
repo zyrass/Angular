@@ -1,1 +1,22 @@
-<p>trois-binding-propriete works!</p>
+<!-- 03 - Le binding de propriété -->
+<section>
+    <h2 class="my-3">03 - Le binding de propriété</h2>
+    <div class="col-6 mx-auto">
+        <input type="text" id="" class="form-control" placeholder="nom">
+    </div>
+
+    <div class="col-6 mx-auto">
+        <input type="text" id="" class="form-control" placeholder="nom" value="{{ nom }}">
+    </div>
+
+    <div class="col-6 mx-auto">
+        <input type="text" id="" class="form-control" placeholder="nom" [value]="nom">
+    </div>
+
+    <div class="col-6 mx-auto">
+        <input type="text" id="" class="form-control" placeholder="disabled='{{ true }}'" disabled="{{ true }}">
+        <input type="text" id="" class="form-control" placeholder="disabled='{{ false }}'" disabled="{{ false }}">
+        <input type="text" id="" class="form-control" placeholder="[disabled]='false'" [disabled]="false">
+        <input type="text" id="" class="form-control" placeholder="[disabled]='true'" [disabled]="true">
+    </div>
+</section>

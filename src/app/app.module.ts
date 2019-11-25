@@ -11,7 +11,6 @@ import { CssExterneComponentComponent } from './un-components/css-externe-compon
 import { CssInterneComponentComponent } from './un-components/css-interne-component/css-interne-component.component';
 import { HtmlInterneComponentComponent } from './un-components/html-interne-component/html-interne-component.component';
 import { HtmlExterneComponentComponent } from './un-components/html-externe-component/html-externe-component.component';
-import { InterpolationComponent } from './interpolation/interpolation.component';
 import { DeuxInterpolationComponent } from './deux-interpolation/deux-interpolation.component';
 import { TroisBindingProprieteComponent } from './trois-binding-propriete/trois-binding-propriete.component';
 
@@ -26,7 +25,6 @@ import { TroisBindingProprieteComponent } from './trois-binding-propriete/trois-
     CssInterneComponentComponent,
     HtmlInterneComponentComponent,
     HtmlExterneComponentComponent,
-    InterpolationComponent,
     DeuxInterpolationComponent,
     TroisBindingProprieteComponent
   ],
